@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSTORE LOGIN</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: 'Open Sans', sans-serif;
+                background-image: url('https://images.unsplash.com/photo-1517694712202-14b57179a3f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                margin: 0;
+            }
+            
+            .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255,255,255,9);
+            position: fixed;
+            top: 0; left: 0; z-index: 10000;
+            height: 100%;
+            }
+            
+            .login-container form {
+                background-color: #fff;
+                border: var(--border);
+                width: 40rem;
+                padding: 2rem;
+                box-shadow: var(--box-shadow);
+                border-radius: .5rem;
+                margin: 2rem;
+            }
+
+            .login-container form h3{
+                font-size: 2.5rem;
+                text-transform: uppercase;
+                color:var(--black);
+                text-align: center;
+
+            }
+            .login-container form span{
+                display: block;
+                font-size: 1.5rem;
+                padding-top: 1rem;
+
+            }
+            .login-container form .box{
+                margin: 7rem 0;
+                font-size: 1.6rem;
+                border: var(--border);
+                border-radius: .5rem;
+                padding: 1rem 1.2rem;
+                color: var(--black);
+                text-transform: none;
+
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <form action="">
+                <h3>singn in</h3>
+                <span>username</span>
+                <input type="email" name="" class="box" placeholder="enter your email" id="">
+                <span>password</span>
+                <input type="password" name="" class="box" placeholder="enter your password" id="">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>forget password ?<a href="#">click here</a></p>
+                <p>don't have an account ?<a href="#">create one</a></p>
+
+            </form>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>
